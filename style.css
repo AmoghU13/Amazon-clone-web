@@ -1,0 +1,250 @@
+body {
+  background-image: url('https://assets.aboutamazon.com/dims4/default/8e9d75b/2147483647/strip/true/crop/2500x1250+0+625/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F43%2F73%2Fb77ab1e04b2b8c097c3bebbe1ca2%2Famazon-org-smile-extruded-sq.jpeg');
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-repeat: no-repeat;            
+  background-size: cover;                  
+  background-position: center;
+  background-attachment: fixed;             
+  margin: 0;
+}
+.firstpannel{
+    text-align: center;
+    background-color: rgb(32, 39, 39);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: -5%;
+}
+.searchpannel{
+    display: flex;
+    flex-direction: row;
+
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    gap: 10px;
+
+}
+#searchbar{
+    font-size: x-large;
+    margin-top: 2%;
+}
+#searchicon{
+    margin-top: 0.55%;
+    margin-left: -2.45%;
+    color: darkkhaki;
+    border-bottom-right-radius: 2px;
+}
+#carticon{
+    margin-top: 0.8%;
+    border-radius: 5px;
+    margin-left: -1%;
+}
+p{
+    font-size: large;
+    color: aliceblue;
+
+}
+.secandpannel{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(49, 61, 61);
+    gap: 70px;
+}
+#midimage{
+    border: yellow;
+    border-radius: 1;
+}
+.thirdpannel {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;     
+    align-items: center;         
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    gap: 30px;
+}
+
+.headphone{
+    margin-left: 5%;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+.oraclef1{
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right:5%;
+    margin-right: 5%;
+    
+}
+.ps5{
+    text-align: center;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+button{
+    font-size: large;
+    background-color: khaki;
+    padding: 5px 50px;
+    margin-bottom: 1%;
+    border-radius: 20px;
+
+}
+.pricelist{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+
+}
+img {
+  transition: 0.3s ease; 
+  cursor: pointer;
+}
+
+img:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 255, 255, 0.7); 
+}
+.fourthpannel{
+    text-align: left;
+    background-color: aliceblue;
+    margin-right: 52%;
+    margin-left: 3%;
+    gap: 20px;
+    margin-top: -3%;
+
+}
+.fasion{
+    display: flex;
+    flex-direction: row;
+}
+.top{
+    text-align: center;
+    margin-left: 2%;
+    gap: 5px;
+}
+.shoo{
+    text-align: center;
+    margin-top: -5%;
+    gap: 5px;
+
+
+}
+.jacketred{
+    text-align: center;
+    margin-left: 2%;
+    gap: 5px
+}
+.fifthpannel{
+    text-align: right;
+    background-color: rgb(227, 237, 246);
+    margin-left: 50%;
+    gap: 20px;
+    margin-top: -57%;
+    margin-right: 2%;
+    
+}
+.apple{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.iphone{
+    text-align: center;
+    margin-left: 3%;
+    gap: 5px;
+
+}
+.macbook{
+    text-align: center;
+    margin-left: 5%;
+    gap: 5px;
+}
+.geforce{
+    text-align: center;
+    margin-top: -3%;
+
+}
+.sixthpannel{
+    text-align: center;
+    background-color: cornsilk;
+    margin-left: 3%;
+    margin-right: 52%;
+    margin-top: -11%;
+}
+.sixthpannelclass1{
+    display: flex;
+    flex-direction: row;
+}
+.kitchen{
+    margin-left: 3%;
+    text-align: center;
+
+}
+.seventhpannel{
+    text-align: center;
+    background-color: beige;
+    margin-left: 50%;
+    margin-right: 1%;
+    margin-top: -47%;
+    padding-bottom: 2%;
+
+
+}
+.brands{
+    margin-top: -5%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 10%;
+
+}
+.brandtittle{
+    margin-top: -10%;
+    padding: 10px 20px;
+}
+.eightpannel{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+}
+.watch{
+    text-align: center;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 3%;
+}
+.videosection{
+    margin-left: 1%;
+    gap: 3px;
+    margin-top: -7%;
+}
+.video1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#ningthpannel{
+    margin-top: 3%;
+}

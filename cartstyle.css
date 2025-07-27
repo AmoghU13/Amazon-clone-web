@@ -1,0 +1,81 @@
+body {
+  background-image: url('https://assets.aboutamazon.com/dims4/default/8e9d75b/2147483647/strip/true/crop/2500x1250+0+625/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F43%2F73%2Fb77ab1e04b2b8c097c3bebbe1ca2%2Famazon-org-smile-extruded-sq.jpeg');
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-repeat: no-repeat;            
+  background-size: cover;                  
+  background-position: center;
+  background-attachment: fixed;             
+  margin: 0;
+}
+.firstpannel{
+    text-align: center;
+    background-color: rgb(32, 39, 39);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: -5%;
+}
+.searchpannel{
+    display: flex;
+    flex-direction: row;
+
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    gap: 10px;
+
+}
+#searchbar{
+    font-size: x-large;
+    margin-top: 2%;
+}
+#searchicon{
+    margin-top: 0.55%;
+    margin-left: -2.45%;
+    color: darkkhaki;
+    border-bottom-right-radius: 2px;
+}
+#carticon{
+    margin-top: 0.8%;
+    border-radius: 5px;
+    margin-left: -1%;
+}
+p{
+    font-size: large;
+    color: aliceblue;
+
+}
+.secandpannel{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(49, 61, 61);
+    gap: 70px;
+}
+.subpannel{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: aliceblue;
+    padding: 30px  30px;
+    border-radius: 20px;
+    margin-top: 5%;
+    font-size: x-large;
+    color: black;
+    margin-bottom: 3%;
+
+
+}
+#sub{
+    color: black;
+}
+button:hover {
+  box-shadow: 0 0 10px 4px rgba(0, 255, 255, 0.8); 
+}
+#reset{
+    font-size: x-large;
+    padding: 10px 20px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 20px;
+}
